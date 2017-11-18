@@ -15,7 +15,7 @@ public class TestInitialAPI {
 
     @Test
     public void test_NumberOfCircuitsFor2017Season_ShouldBe20() {
-
+        System.out.println("Hello");
         given().
                 when().
                 get("http://ergast.com/api/f1/2017/circuits.json").
