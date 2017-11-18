@@ -1,6 +1,5 @@
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.http.ContentType;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static com.jayway.restassured.RestAssured.given;
